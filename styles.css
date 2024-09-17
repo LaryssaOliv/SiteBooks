@@ -1,0 +1,61 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Wittgenstein", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 6px #b720dd;
+    padding: 20px;
+    font-size: 40px;
+}
+.chamada {
+    background: rgb(220,220,220);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+h1 {
+    font-size: 40px;
+    margin: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  .categoria-livros {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .categoria-livro img {
+    opacity: 1.0;
+    height: 200px;
+}
+
+.categoria-livros img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(248, 248, 248);
+}
+
+
+  
